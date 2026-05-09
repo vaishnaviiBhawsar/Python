@@ -1,0 +1,76 @@
+'''1.Digit Product Analyzer System
+
+A data analytics company studies patterns in numeric transaction IDs to detect hidden behaviors.
+
+For every entered number, the system analyzes relationships between its digits.
+
+Write a program to:
+
+Find the product of every pair of adjacent digits
+Display all the products
+Find the sum of all these products
+Find the smallest product value
+If the sum of products is divisible by the total number of digits, print Stable Number
+Otherwise print Unstable Number
+
+Use loops wherever required.
+
+Input:
+57294
+
+Output:
+Products: 35 14 18 36
+Sum = 103
+Smallest = 14
+Unstable Number'''
+
+
+
+number = (input("Enter number: "))
+total = 0
+smallest = float('inf')   #infinite se compare karega
+
+print("Products:", end=" ")
+
+'''for i in range (len(number)-1):
+     a = int(number[i])
+     b = int(number[i+1])
+     p = a*b
+   
+     print(p, end=" ")
+     total+=p 
+
+     if p < smallest:
+          smallest = p
+
+print("\nsum =", total)
+print("Smallest =", smallest)
+
+if total % len(number) == 0:
+    print("Stable Number")
+else:
+    print("Unstable Number")'''
+
+i=0
+while i<len(number)-1:
+     a = int(number[i])
+     b = int(number[i+1])
+ 
+     p = a*b
+   
+     print(p, end=" ")
+     total+=p 
+     
+     if p < smallest:
+        smallest = p
+
+     i=i+1
+print("\nsum =", total)
+print("Smallest =",smallest)
+ 
+if total % len(number) == 0:
+    print("Stable Number")
+
+else:
+    print("Unstable Number")
+

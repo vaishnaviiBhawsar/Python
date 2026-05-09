@@ -1,0 +1,36 @@
+'''2. Next Prime ID Generator
+
+A multinational company auto-generates employee IDs in numeric sequence.
+ Due to internal policy, only prime numbered IDs are assigned to new premium employees.
+
+The HR manager enters the current last issued ID, and the software must search forward to find the next available prime number ID.
+
+Write a program to find the first prime number after n.
+
+Input:
+14
+
+Output:
+Next Prime = 17'''
+
+
+n = int(input("Enter number: "))
+
+num = n + 1
+
+while True:
+    i = 2
+    x = 1   # assume prime
+
+    while i * i <= num:
+        if num % i == 0:
+            x = 0
+            break
+        i += 1
+
+    if x == 1:
+        print("Next Prime =", num)
+        break
+
+    num += 1
+
