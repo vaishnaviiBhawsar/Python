@@ -1,0 +1,78 @@
+Q1. What will the following code snippet print? x = 10 
+if x < 5:
+    print("x is less than 5") 
+elif x > 15:
+    print("x is greater than 15") 
+else: 
+    print("x is between 5 and 15") 
+
+a) x is less than 5 b) x is greater than 15 c) x is between 5 and 15 d) No output
+
+ Q2. How can you execute multiple statements under a single if block in Python?
+ a) Separate statements with a semicolon b) Indent the statements to the same level c) Use the and keyword between statements d) Use the elif keyword 
+
+Q3. What will be the output of the following code snippet? x = 5
+ if x < 3:
+    print("x is less than 3") 
+elif x == 3: 
+    print("x is equal to 3")
+ else: print("x is greater than 3")
+ 
+a) x is less than 3  b) x is equal to 3  c) x is greater than 3 d) No output
+
+ Q4. What is the primary purpose of the if statement in Python?
+ a) To execute a block of code based on a condition b) To perform mathematical operations c) To repeat a block of code d) To define a function 
+
+Q5. What is the purpose of the pass statement in Python? A. To terminate a loop.
+ B. To skip the current iteration and move to the next. C. To act as a null operation or placeholder where code is syntactically required. D. To return a value from a function.  
+
+
+Q6.What is the purpose of the if statement in Python? 
+a.)To define a function b)To declare a variable C)To execute a block of code conditionally D)To create a loop 
+
+Question 7 A B C Which of the following operators is used for equality comparison in Python? 
+A a)== b)= c)=== D)>
+
+ Question 8 B C D What will be the output of the following code snippet?
+ x = 5 
+if x > 0: 
+    print("Positive") 
+else: print("Negative") 
+A A Positive B Negative C Zero D Error Question 9 B C D How do you represent the logical AND operator in Python? A A && B and C AND D &
+
+ Question 10 B C D What is the purpose of the elif statement in Python? 
+A A To handle exceptions B To create a loop C To define a function B C D D To check additional conditions after the initial if statement 
+
+Question 11 In Python, what is the purpose of the else statement within an if-else block? A A To define a function B To check additional conditions B C C To execute a block of code when the if condition is false D D To create a loop 
+
+Question 12 What is the output of the following code snippet?
+ x = 10 
+if x > 5:
+    print("Greater than 5") 
+elif x > 8:
+    print("Greater than 8") 
+else: 
+    print("Less than or equal to 5")
+ A A Greater than 5 B Greater than 8 C Less than or equal to 5 D No output 
+
+Question 13 B C D Which statement is used to exit a loop prematurely in Python?
+ A A break B exit B C D C return D continue
+
+ Question 14 In Python, what is the purpose of the try-except block? A) To create a loop B) To check multiple conditions C)To handle exceptions D) To define a function
+
+ Question 15 A B C D What is the output of the following code snippet?
+ for i in range(5): if i == 3: continue print(i)  A) 0 1 2 3 4 B)0124 C)0 1 20 D)0123   
+
+ Q16. What will be the output? for i in range(3): pass print("Hello") A) Error B) 0 1 2 C) Hello D) Nothing
+
+ Q17. Which statement is used when a block of code is required syntactically but you do not want any action? 
+A) break B) continue C) skip D) pass
+
+ Q18 What will happen? if True: pass print("Python") 
+A) Error B) Python C) Nothing D) True 
+
+Q19 Which of the following is TRUE about pass?
+ A) It ignores errors B) It terminates the loop C) It performs no operation D) It skips the next line 
+
+20. Fill in the blank: The pass statement is a ______ statement. 
+A) looping B) null C) conditional D) function 

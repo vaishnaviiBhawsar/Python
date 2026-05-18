@@ -1,0 +1,218 @@
+1. Which of the following is a valid Python keyword?
+
+A) define
+B) function
+C) lambda
+D) include
+
+Answer: lambda
+
+2. Which of the following can be used as an identifier in Python?
+
+A) 2name
+B) class
+C) student_name
+D) my-name
+
+Answer: student_name
+
+
+3. What will be the output?
+
+```python id="s8n2wu"
+True = 5
+print(True)
+```
+
+A) 5
+B) True
+C) Error
+D) None
+
+Answer: Error
+
+4. Which symbol is allowed in Python identifiers?
+
+A) @
+B) #
+C) $
+D) _
+
+Answer: _
+
+5. Which of the following is NOT a Python keyword?
+
+A) elif
+B) yield
+C) eval
+D) while
+
+Answer: eval
+
+6. What will be the output?
+
+```python id="a3p5yk"
+my_var = 10
+My_var = 20
+print(my_var + My_var)
+```
+
+A) 10
+B) 20
+C) 30
+D) Error
+
+Answer:30
+
+7. Which statement is correct about identifiers?
+
+A) They can start with numbers
+B) They are case-sensitive
+C) Spaces are allowed
+D) Keywords can be used freely
+
+Answer: They are case-sensitive
+
+8. Which identifier is invalid?
+
+A) _temp
+B) temp2
+C) 2temp
+D) temp_value
+
+Answer:  2temp
+
+9. What will happen?
+
+```python id="1dd6lg"
+for = 7
+print(for)
+```
+
+A) 7
+B) for
+C) Syntax Error
+D) Runtime Error
+
+Answer: Syntax Error
+
+10. Which keyword is used to define a function?
+
+A) func
+B) define
+C) def
+D) function
+
+Answer: def
+
+11. Which of the following identifiers follows Python naming rules?
+
+A) first-name
+B) first name
+C) first_name
+D) 1st_name
+
+Answer:first_name
+
+
+12. What is the output?
+
+```python id="a8u3qp"
+a = 5
+A = 10
+print(a == A)
+```
+
+A) True
+B) False
+C) Error
+D) 15
+
+Answer:  False
+
+13. Which keyword is used for exception handling?
+
+A) try
+B) catch
+C) final
+D) check
+
+Answer: try
+
+14. Identify the invalid identifier.
+
+A) **name**
+B) value_1
+C) break
+D) student123
+
+Answer: break
+
+15. What will be the output?
+
+```python id="w6b2rc"
+x_y = 8
+print(x_y)
+```
+
+A) x_y
+B) 8
+C) Error
+D) None
+
+Answer:  8
+
+16. Which keyword is used to create a loop in Python?
+
+A) iterate
+B) repeat
+C) loop
+D) while
+
+Answer: while
+
+17. Which of the following is a valid identifier?
+
+A) totalMarks
+B) total-marks
+C) total marks
+D) @marks
+
+Answer: totalMarks
+
+18. What will be the output?
+
+```python id="x1m7ka"
+name = 'Python'
+print(name)
+```
+
+A) Python
+B) "Python"
+C) name
+D) Error
+
+Answer: Python
+
+19. Which keyword is used to import modules?
+
+A) include
+B) import
+C) using
+D) module
+
+Answer: import
+
+20. What is the output?
+
+```python id="u9f3zl"
+if = 10
+print(if)
+```
+
+A) 10
+B) if
+C) Syntax Error
+D) Runtime Error
+
+Answer: Syntax Error

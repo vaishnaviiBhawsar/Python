@@ -8,14 +8,14 @@ Write a program to calculate the final payable amount using inline if only.'''
 type=input("Enter customer type (Premium/Regular)")
 amount = int(input("Enter purchase amount:"))
    
-discount = (amount * 20) // 100 if type=="premium" and amount>5000 else (amount * 10) // 100  if amount<5000 else (amount * 10) // 100 if type=="regular" and amount>3000 else (amount * 5) // 100
+discount = (amount*20)//100 if type=="premium" and amount>5000 else (amount*10)//100  if amount<5000 else (amount*10)//100 if type=="regular" and amount>3000 else (amount * 5)//100
 final=amount-discount
 print("Final Payable Amount =",final)
 
 
 
 '''if type =="premium":
-    if amount>5000:
+    if amount>=5000:
         discount = (amount * 20) // 100
         final = amount-discount
     else:
@@ -28,5 +28,8 @@ else:
         discount = (amount * 5) // 100
 
 print("Final amount =",final)'''
-   
+
+
+
+
 

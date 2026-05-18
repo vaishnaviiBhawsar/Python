@@ -1,0 +1,179 @@
+1. What is the output of `5 + 2 * 3`?
+
+A) 21
+B) 11
+C) 15
+D) 10
+
+Answer: 11
+
+2. Which operator is used for exponentiation in Python?
+
+A) ^
+B) //
+C) **
+D) %%
+
+Answer: **
+
+3. Which operator gives the remainder?
+
+A) /
+B) %
+C) //
+D) *
+
+Answer: %
+
+4. What is the result of `10 // 3`?
+
+A) 3.3
+B) 3
+C) 4
+D) 1
+
+Answer: 3
+
+5. Which operator is used for logical AND?
+
+A) &&
+B) and
+C) &
+D) ||
+
+Answer:and
+
+6. Which operator has highest precedence?
+
+A) +
+B) *
+C) ()
+D) and
+
+Answer: ()
+
+7. What is the output of `2 ** 3`?
+
+A) 6
+B) 8
+C) 9
+D) 5
+
+Answer: 8
+
+8. Which operator compares two values?
+
+A) Assignment
+B) Arithmetic
+C) Comparison
+D) Membership
+
+Answer:  Comparison
+
+9. What is the output of `8 % 3`?
+
+A) 2
+B) 1
+C) 0
+D) 3
+
+Answer: 2
+
+10. Which keyword is used for logical OR?
+
+A) ||
+B) or
+C) OR
+D) &&
+
+Answer: or
+
+11. What is the output of `5 > 3`?
+
+A) True
+B) False
+C) 5
+D) Error
+
+Answer: True
+
+12. Which operator checks identity?
+
+A) in
+B) ==
+C) is
+D) !=
+
+Answer: is
+
+13. What is the result of `4 + 6 / 2`?
+
+A) 5
+B) 7
+C) 10
+D) 14
+
+Answer: 7
+
+14. Which operator is used for multiplication?
+
+A) x
+B) *
+C) %
+D) //
+
+Answer: *
+
+15. What is the output of `not True`?
+
+A) True
+B) False
+C) None
+D) Error
+
+Answer: False
+
+16. Which operator is used for membership testing?
+
+A) in
+B) is
+C) ==
+D) >=
+
+Answer: in
+
+17. What is the output of `3 * 2 + 1`?
+
+A) 9
+B) 7
+C) 6
+D) 5
+
+Answer 7
+
+18. Which operator is evaluated last?
+
+A) *
+B) +
+C) and
+D) or
+
+Answer: or
+
+19. What is the result of `(5 + 3) * 2`?
+
+A) 11
+B) 16
+C) 13
+D) 10
+
+Answer: 16
+
+20. Which operator is used for assignment?
+
+A) ==
+B) :=
+C) =
+D) !=
+
+Answer: =
